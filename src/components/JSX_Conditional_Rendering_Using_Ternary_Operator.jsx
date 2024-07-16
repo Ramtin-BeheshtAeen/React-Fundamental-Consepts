@@ -4,7 +4,7 @@ function JSX_Conditional_Rendering_Using_Ternary_Operator() {
     let status = false
     return (
         <div>
-        <h1>JSX_Conditional_Rendering_Using_Ternary_Operator:</h1>
+        <h3>JSX_Conditional_Rendering_Using_Ternary_Operator:</h3>
             {status ?
             /* If it is true:*/
             <button>Logout</button>

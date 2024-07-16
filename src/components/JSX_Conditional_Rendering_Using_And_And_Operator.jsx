@@ -4,7 +4,7 @@ function JSX_Conditional_Rendering_Using_And_And_Operator() {
     let status = true
     return (
         <div>
-        <h1>JSX_Conditional_Rendering_Using_And_And_Operator</h1>
+        <h3>JSX_Conditional_Rendering_Using_And_And_Operator</h3>
         {status && <button>Logout</button>}
         </div>
     );
