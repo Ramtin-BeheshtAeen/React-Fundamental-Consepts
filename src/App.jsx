@@ -10,6 +10,7 @@ import JSX_Conditional_Rendering_Using_And_And_Operator from './components/JSX_C
 import JSX_Passing_Properties_String_to_This_Child_Component from './components/JSX_Passing_Properties_String_to_This_Child_Component';
 import JSX_Passing_Properties_Object_to_This_Child_Component from './components/JSX_Passing_Properties_Object_to_This_Child_Component';
 import JSX_Passing_Properties_Function_to_This_Child_Component from './components/JSX_Passing_Properties_Function_to_This_Child_Component';
+import Button from './components/Managing_Click_Event';
 
 
 function buttonOnClick(){
@@ -45,6 +46,7 @@ function App() {
     
     <JSX_Passing_Properties_Function_to_This_Child_Component func={buttonOnClick}/>
 
+    <Button />
     </div>
   );
 };
