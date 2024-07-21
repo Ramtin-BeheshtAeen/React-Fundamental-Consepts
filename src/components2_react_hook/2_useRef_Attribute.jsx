@@ -12,7 +12,7 @@ function UseRef_Attribute(){
 
     return (
         <div>
-        <h3>UseRef_Attribute</h3>
+        <h1>UseRef_Attribute</h1>
         <img ref={myImg} src="https://placehold.co/600x400" ></img>
         <button onClick={onClick} > Click Me </button>
         </div>
