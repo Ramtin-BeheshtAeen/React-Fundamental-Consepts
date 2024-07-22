@@ -5,6 +5,7 @@ import UseRef_InnerHTML_with_arrow_function from './components2_react_hook/1_3_u
 import UseRef_Attribute from './components2_react_hook/2_useRef_Attribute';
 import UseRef_InputElements from './components2_react_hook/3_useRef_InputElements';
 import UseRef_Css from './components2_react_hook/4_useRef_Css';
+import UseRef_Caching from './components2_react_hook/5_useRef_Caching'
 
 function App2() {
   
@@ -16,6 +17,7 @@ function App2() {
     <UseRef_Attribute/>
     <UseRef_InputElements/>
     <UseRef_Css/>
+    <UseRef_Caching/>
     </div>
   );
 
