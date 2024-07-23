@@ -7,6 +7,7 @@ import UseRef_InputElements from './components2_react_hook/3_useRef_InputElement
 import UseRef_Css from './components2_react_hook/4_useRef_Css';
 import UseRef_Caching from './components2_react_hook/5_useRef_Caching'
 import UseState from './components2_react_hook/6_useState';
+import UseState_Immutable_Objects from './components2_react_hook/6_useState_Immutable_Objects';
 
 
 function App2() {
@@ -21,6 +22,7 @@ function App2() {
     <UseRef_Css/>
     <UseRef_Caching/>
     <UseState/>
+    <UseState_Immutable_Objects/>
     </div>
   );
 
