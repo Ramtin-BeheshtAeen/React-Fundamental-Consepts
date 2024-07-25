@@ -9,9 +9,13 @@ function UseState_Immutable_Arrays_Deleting_Array_Element(){
         setList( (previousList) => ([...previousList, item]))
     }
 
+    // function removeItem(index){
+    //     list.splice(index, 1);
+    //     setList([...list])
+    // }
+
     function removeItem(index){
-        list.splice(index, 1);
-        setList([...list])
+        setList( (previousList) => previousList.filter( (_ , itemIndex) => (itemIndex !== index) ))  
     }
 
     return (
@@ -24,7 +28,7 @@ function UseState_Immutable_Arrays_Deleting_Array_Element(){
                             list.map((element,index) => (
                                 <tr key={index}>
                                     <td>{element}</td>
-                                    <td> <button onClick={(index)=>(removeItem(index))}> Remove Item </button> </td>
+                                    <td> <button onClick={()=>(removeItem(index))}> Remove Item </button> </td>
                                 </tr>
                             ))
                         ) 
